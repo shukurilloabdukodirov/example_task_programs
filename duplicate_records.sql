@@ -1,0 +1,4 @@
+SELECT id
+FROM table
+GROUP BY id
+HAVING COUNT(id) > 1;
